@@ -32,7 +32,8 @@ public partial class MainPage : ContentPage
             Fill = Color.FromRgb(137, 137, 137),
             Stroke = Brush.Gray,
             StrokeThickness = 0,
-            IsEnabled = true
+            IsEnabled = true,
+            BackgroundColor = Colors.Red
         };
 
         TapGestureRecognizer tapGestureRecognizer = new TapGestureRecognizer();
